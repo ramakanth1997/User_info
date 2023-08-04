@@ -29,7 +29,7 @@ def enter_data():
             print("Registration status", registration_status)
             print("------------------------------------------")
 
-            filepath = "C:\\Users\\006595\\PycharmProjects\\pythonProject\\pythonProject\\venv\\lib\\data.xlsx"
+            filepath = "https://docs.google.com/spreadsheets/d/12yI15gG6sXWDqPLwct1RRYy09lx4kZ8kbFDi_5nHuMU/edit#gid=0"
 
             if not os.path.exists(filepath):
                 workbook = openpyxl.Workbook()
