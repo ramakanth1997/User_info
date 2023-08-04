@@ -549,7 +549,7 @@ class ScriptRunner:
 
                 ctx.on_script_start()
                 prep_time = timer() - start_time
-                exec(code, module.__dict__)
+               exec(object[, globals[, locals]])
                 self._session_state.maybe_check_serializable()
                 self._session_state[SCRIPT_RUN_WITHOUT_ERRORS_KEY] = True
         except RerunException as e:
