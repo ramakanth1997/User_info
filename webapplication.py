@@ -50,7 +50,7 @@ def enter_data():
         tkinter.messagebox.showwarning(title="Error", message="You have not accepted the terms")
 
 
-window = tkinter.ttk()
+window = tkinter()
 window.title("Wissen Office Record")
 
 frame = tkinter.Frame(window)
